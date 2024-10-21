@@ -3,8 +3,8 @@ package catalog
 import (
 	"errors"
 
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
-	"github.com/sqlc-dev/sqlc/internal/sql/sqlerr"
+	"github.com/prog8/sqlc/internal/sql/ast"
+	"github.com/prog8/sqlc/internal/sql/sqlerr"
 )
 
 // Function describes a database function

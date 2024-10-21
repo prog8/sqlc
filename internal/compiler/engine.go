@@ -4,15 +4,15 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/sqlc-dev/sqlc/internal/analyzer"
-	"github.com/sqlc-dev/sqlc/internal/config"
-	"github.com/sqlc-dev/sqlc/internal/dbmanager"
-	"github.com/sqlc-dev/sqlc/internal/engine/dolphin"
-	"github.com/sqlc-dev/sqlc/internal/engine/postgresql"
-	pganalyze "github.com/sqlc-dev/sqlc/internal/engine/postgresql/analyzer"
-	"github.com/sqlc-dev/sqlc/internal/engine/sqlite"
-	"github.com/sqlc-dev/sqlc/internal/opts"
-	"github.com/sqlc-dev/sqlc/internal/sql/catalog"
+	"github.com/prog8/sqlc/internal/analyzer"
+	"github.com/prog8/sqlc/internal/config"
+	"github.com/prog8/sqlc/internal/dbmanager"
+	"github.com/prog8/sqlc/internal/engine/dolphin"
+	"github.com/prog8/sqlc/internal/engine/postgresql"
+	pganalyze "github.com/prog8/sqlc/internal/engine/postgresql/analyzer"
+	"github.com/prog8/sqlc/internal/engine/sqlite"
+	"github.com/prog8/sqlc/internal/opts"
+	"github.com/prog8/sqlc/internal/sql/catalog"
 )
 
 type Compiler struct {

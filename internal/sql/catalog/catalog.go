@@ -1,7 +1,7 @@
 package catalog
 
 import (
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
+	"github.com/prog8/sqlc/internal/sql/ast"
 )
 
 // Catalog describes a database instance consisting of metadata in which database objects are defined

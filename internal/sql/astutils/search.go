@@ -1,6 +1,6 @@
 package astutils
 
-import "github.com/sqlc-dev/sqlc/internal/sql/ast"
+import "github.com/prog8/sqlc/internal/sql/ast"
 
 type nodeSearch struct {
 	list  *ast.List

@@ -1,2 +1,2 @@
-https://github.com/sqlc-dev/sqlc/issues/2748
-https://github.com/sqlc-dev/sqlc/issues/2786
+https://github.com/prog8/sqlc/issues/2748
+https://github.com/prog8/sqlc/issues/2786

@@ -17,7 +17,7 @@ jobs:
         run: go install ./...
       - uses: actions/checkout@v4
         with:
-          repository: sqlc-dev/sqlc-gen-python
+          repository: prog8/sqlc-gen-python
           path: python
       - run: make test
         working-directory: python
